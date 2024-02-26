@@ -3,11 +3,12 @@
   padding: 0;
   box-sizing: border-box;
   font-family: sans-serif;
+  color: #fff;
 }
 
 .container {
   width: 100%;
   height: 100vh;
-  color: #fff;
-  background: url(./wave-haikei.png);
+  background: url(./wave-haikei.png) no-repeat;
+  background-size: cover;
 }
