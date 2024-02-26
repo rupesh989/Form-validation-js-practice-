@@ -47,3 +47,46 @@
   font-weight: 600;
   color: #90ee90;
 }
+
+.signup-body p label {
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.signup-body p input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 18px;
+  margin-block: 4px;
+  border: none;
+  outline: none;
+  color: #000;
+}
+
+.signup-body p input[type="submit"] {
+  border: none;
+  background-color: #3498db;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.signup-body p input[type="submit"]:hover {
+  background-color: #2773a5;
+}
+
+.signup-footer p {
+  text-align: center;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.signup-footer p a {
+  text-decoration: none;
+}
+.signup-footer p a:hover {
+  text-decoration: underline;
+}
